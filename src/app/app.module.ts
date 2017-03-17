@@ -15,7 +15,7 @@ import { routing } from 'app/app.routing';
   ],
   imports: [
     BrowserModule,
-    SharedModule,
+    SharedModule.forRoot(),
     routing
   ],
   bootstrap: [AppComponent]
